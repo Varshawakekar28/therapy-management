@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 14 18:31:26 IST 2025
+9fdf2035c8dd4b7be4db0dc9bd66b5d3dd801071@default-spring-releases-https\://repo.spring.io/release/.lastUpdated=1739538076228
+@default-spring-releases-https\://repo.spring.io/release/.lastUpdated=1739533598334
+https\://jcenter.bintray.com/.error=
+https\://jcenter.bintray.com/.lastUpdated=1739538084061
+https\://repo.maven.apache.org/maven2/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1739538086543
+https\://repo.spring.io/release/.error=Could not transfer artifact org.socialsignin.spring.data.dynamodb\:spring-data-dynamodb\:pom\:5.1.4 from/to spring-releases (https\://repo.spring.io/release)\: status code\: 401, reason phrase\:  (401)

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 14 16:43:41 IST 2025
+jmespath-java-1.12.190-sources.jar>maven-central=
+jmespath-java-1.12.190.jar>central=
+jmespath-java-1.12.190.pom>central=

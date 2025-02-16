@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Feb 13 13:16:43 IST 2025
+third-party-jackson-core-2.20.40-sources.jar>central=
+third-party-jackson-core-2.20.40.jar>central=
+third-party-jackson-core-2.20.40.pom>central=

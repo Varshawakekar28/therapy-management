@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 14 16:43:56 IST 2025
+HikariCP-5.0.1-sources.jar>maven-central=
+HikariCP-5.0.1.jar>central=
+HikariCP-5.0.1.pom>central=

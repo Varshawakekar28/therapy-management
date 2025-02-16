@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Feb 14 16:45:12 IST 2025
+@default-spring-releases-https\://repo.spring.io/release/.lastUpdated=1739531709422
+https\://jcenter.bintray.com/.error=
+https\://jcenter.bintray.com/.lastUpdated=1739531712543
+https\://repo.maven.apache.org/maven2/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1739531707994
+https\://repo.spring.io/release/.error=Could not transfer artifact org.webjars\:swagger-ui\:jar\:sources\:4.15.5 from/to spring-releases (https\://repo.spring.io/release)\: status code\: 401, reason phrase\:  (401)

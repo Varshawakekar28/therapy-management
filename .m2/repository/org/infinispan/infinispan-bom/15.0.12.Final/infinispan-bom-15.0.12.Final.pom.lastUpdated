@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 28 18:22:45 IST 2025
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1738068765301
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.infinispan\:infinispan-bom\:pom\:15.0.12.Final from/to central (https\://repo.maven.apache.org/maven2)\: repo.maven.apache.org
