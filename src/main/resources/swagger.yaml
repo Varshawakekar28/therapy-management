@@ -1,0 +1,155 @@
+openapi: 3.0.0
+info:
+  title: Therapy Management API
+  description: API for managing clients, therapists, and therapy sessions.
+  version: 1.0.0
+servers:
+  - url: https://api.example.com
+    description: Production server
+paths:
+  /clients:
+    post:
+      summary: Create a new client
+      operationId: createClient
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Client'
+      responses:
+        '201':
+          description: Client created successfully
+
+  /clients/{clientId}:
+    get:
+      summary: Get client details
+      operationId: getClient
+      parameters:
+        - name: clientId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Client details retrieved
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Client'
+    put:
+      summary: Update client details
+      operationId: updateClient
+      parameters:
+        - name: clientId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Client'
+      responses:
+        '200':
+          description: Client updated successfully
+    delete:
+      summary: Delete a client
+      operationId: deleteClient
+      parameters:
+        - name: clientId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Client deleted successfully
+
+  /therapists:
+    post:
+      summary: Create a new therapist
+      operationId: createTherapist
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Therapist'
+      responses:
+        '201':
+          description: Therapist created successfully
+
+  /therapists/{therapistId}:
+    get:
+      summary: Get therapist details
+      operationId: getTherapist
+      parameters:
+        - name: therapistId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Therapist details retrieved
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Therapist'
+    put:
+      summary: Update therapist details
+      operationId: updateTherapist
+      parameters:
+        - name: therapistId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Therapist'
+      responses:
+        '200':
+          description: Therapist updated successfully
+    delete:
+      summary: Delete a therapist
+      operationId: deleteTherapist
+      parameters:
+        - name: therapistId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Therapist deleted successfully
+
+components:
+  schemas:
+    Client:
+      type: object
+      properties:
+        clientId:
+          type: string
+        name:
+          type: string
+        email:
+          type: string
+        phone:
+          type: string
+    
+    Therapist:
+      type: object
+      properties:
+        therapistId:
+          type: string
+        specialization:
+          type: string
+        experience:
